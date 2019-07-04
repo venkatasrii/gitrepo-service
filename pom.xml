@@ -78,7 +78,7 @@
 
 	</dependencies>
 
-	 <!-- <build>
+<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -86,8 +86,8 @@
 			</plugin>
 		</plugins>
 		<finalName>gitrepo-service</finalName>
-	</build> -->
-	<build>
+	</build> 
+		 <!-- <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -132,6 +132,7 @@
         </plugins>
         <finalName>gitrepo-service</finalName>
     </build>
+	-->
 	<!-- <build>
    <plugins>
       <plugin>
