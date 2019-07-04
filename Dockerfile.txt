@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/gitrepo-service.jar gitrepo-service.jar
+EXPOSE 8085
+ENTRYPOINT ["java","-jar","gitrepo-service.jar"]
