@@ -58,7 +58,7 @@ public class GitHubServiceControllerTest {
 		JSONAssert.assertEquals(exampleCourseJson, result.getResponse().getContentAsString(), false);
 	}
 	
-	@Test
+	//@Test
 	public void getReposTestXML() throws Exception {
 		Mockito.when(gitHubService.getUserRepositories(Mockito.anyObject())).thenReturn(mockUser);
 
