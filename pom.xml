@@ -95,15 +95,15 @@
 	</dependencies>
 
 <build>
-		<plugins>
+		<!--<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 		<finalName>gitrepo-service</finalName>
-	</build> 
-		 <!-- <build>
+	</build> -->
+		 <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -148,7 +148,7 @@
         </plugins>
         <finalName>gitrepo-service</finalName>
     </build>
-	-->
+
 	<!-- <build>
    <plugins>
       <plugin>
